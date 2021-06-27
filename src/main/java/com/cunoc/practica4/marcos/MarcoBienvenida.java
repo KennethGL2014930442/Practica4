@@ -17,10 +17,10 @@ public class MarcoBienvenida extends JFrame{
         setTitle("Serpientes y Escaleras");
         setSize(anchoPantalla/2, alturaPantalla/2);
         setLocation(anchoPantalla/4, alturaPantalla/4);        
-        
-        LaminaBienvenida escritura = new LaminaBienvenida();
-        add(escritura);
-        LaminaBienvenida menu = new LaminaBienvenida();
-        add(menu);
+ 
+        LaminaBienvenida imagen = new LaminaBienvenida();
+        add(imagen);
+        imagen.setForeground(Color.WHITE);
+        imagen.setBackground(Color.BLACK);       
     }    
 }
