@@ -1,13 +1,14 @@
-package com.cunoc.practica4.tablero;
+package com.cunoc.practica4.marcos;
 
+import com.cunoc.practica4.laminas.*;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.Toolkit;
 
-public class Bienvenida extends JFrame{
+public class MarcoBienvenida extends JFrame{
     
-    public Bienvenida(){
+    public MarcoBienvenida(){
         Toolkit mipantalla=Toolkit.getDefaultToolkit();
 	Dimension tamanioPantalla=mipantalla.getScreenSize();
 	int alturaPantalla=tamanioPantalla.height;
@@ -19,6 +20,9 @@ public class Bienvenida extends JFrame{
         
         LaminaBienvenida escritura = new LaminaBienvenida();
         add(escritura);
+        LaminaBienvenida menu = new LaminaBienvenida();
+        add(menu);
+        
         
     }
     
