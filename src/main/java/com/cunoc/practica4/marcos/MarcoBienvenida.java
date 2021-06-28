@@ -21,6 +21,7 @@ public class MarcoBienvenida extends JFrame{
         LaminaBienvenida imagen = new LaminaBienvenida();
         add(imagen);
         imagen.setForeground(Color.WHITE);
-        imagen.setBackground(Color.BLACK);       
+        imagen.setBackground(Color.BLACK); 
+        
     }    
 }

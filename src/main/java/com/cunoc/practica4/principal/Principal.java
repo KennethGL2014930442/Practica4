@@ -11,5 +11,5 @@ public class Principal {
         bienvenida.setVisible(true);
         bienvenida.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
-    }
+    }    
 }
