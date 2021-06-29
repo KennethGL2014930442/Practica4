@@ -1,7 +1,7 @@
 package com.cunoc.practica4.laminas;
 
 //import com.cunoc.practica4.botones.AccionBotonIrAMenu;
-import com.cunoc.practica4.marcos.MarcoMenu;
+import com.cunoc.practica4.marcos.MarcoMenuFrame;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -33,8 +33,8 @@ public class LaminaBienvenida extends JPanel {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            MarcoMenu menu = new MarcoMenu();
-            menu.setVisible(true);    
+            MarcoMenuFrame menu = new MarcoMenuFrame();
+            menu.setVisible(true);
         }  
     }
     
