@@ -10,13 +10,22 @@ public class MarcoMenu extends JFrame {
     
     public MarcoMenu(){
         setTitle("Bienvenido a Serpientes y Escaleras");
-        setSize(400,150);
+        setSize(400,400);
         this.setLocationRelativeTo(null);
         
         LaminaMenu menu2 = new LaminaMenu();
         //FlowLayout orden = new FlowLayout(FlowLayout.TRAILING);
-        //menu2.setLayout(new FlowLayout(FlowLayout.RIGHT, 120, 100));
         add(menu2);
         //pack();
+        
+        
+        /*JMenu menu = new JMenu("Archivo");
+        //menu.add(accionJugar);
+        JMenuBar barraMenu = new JMenuBar();
+        barraMenu.add(menu);
+        setJMenuBar(barraMenu);*/
     }
+    
 }
+
+
